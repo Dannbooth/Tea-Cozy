@@ -1,0 +1,184 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+a {
+   color: white;
+   text-decoration: underline;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  top: 0;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+/* Our Mission */
+
+
+.content {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  line-height: 20px;
+}
+
+#banner {
+  background-image: url("/Users/kinlabmaclaptop3/Documents/Codeacad/TeaCozy/Resources/Images/missionbackground.jpg");
+  background-size: auto;
+  height: 700px;
+  background-position: top;
+  margin-top: 69px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#banner .content {
+  border: 3px solid white;
+  width: 1200px;
+  margin: 0 auto;
+  border-color: black;
+  background-color: black;
+  text-align: center;
+  top: 40%;
+}
+
+
+/*Tea options */
+
+
+.teamonth {
+  width: 100%;
+  align-content: center;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.option img {
+  display: inline-flex;
+  width: 300px;
+  height: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row1 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row2 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+/*Locations*/
+
+.locations {
+  background-image: url("/Users/kinlabmaclaptop3/Documents/Codeacad/TeaCozy/Resources/Images/locations-background.jpg");
+  background-position: top;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 15px;
+}
+
+.places {
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  opacity: 1;
+}
+
+.downtown {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+.bayside {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 0px 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.oakdale {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+/* Contact */
+
+.bottom {
+  height: 200px;
+  margin: auto;
+}
+
+/*Footer*/
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
